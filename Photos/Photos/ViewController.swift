@@ -12,15 +12,6 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
                             
     @IBOutlet weak var imageView: UIImageView!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
 // MARK: IBAction funcs -
     @IBAction func takePhoto(sender: AnyObject) {
@@ -34,6 +25,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
             
             let frontCamera = UIImagePickerControllerCameraDevice.Front
             let rearCamera = UIImagePickerControllerCameraDevice.Rear
+            
             //use the front facing camera if available
             if (UIImagePickerController.isCameraDeviceAvailable(frontCamera))
             {
@@ -59,10 +51,10 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
     }
     
     @IBAction func sharePhoto(sender: AnyObject) {
-        let image = self.imageView.image?
-        if (image != nil)
-        {
-            let activity = UIActivityViewController(activityItems: [image!], applicationActivities: nil)
+        
+        if let image = self.imageView.image {
+            let activity = UIActivityViewController(activityItems: [image], applicationActivities: nil)
+            
             self.presentViewController(activity, animated: true) { () -> Void in
                 // we don't need to do anything
             }
@@ -78,6 +70,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
         self.imageView.image = image
         picker.dismissViewControllerAnimated(true, completion: nil)
     }
+    
     func imagePickerControllerDidCancel(picker: UIImagePickerController!) {
         picker.dismissViewControllerAnimated(true, completion: nil)
     }
