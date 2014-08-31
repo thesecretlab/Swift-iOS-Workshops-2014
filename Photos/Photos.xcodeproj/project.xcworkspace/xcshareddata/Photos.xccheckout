@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2764B8CB-5FA3-4AAE-B21A-25ACCAB6EBB8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Photos</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BFC3C652961DE19B90D9F1D97070E67D0A5054A2</key>
+		<string>github.com:thesecretlab/Swift-iOS-Workshops-2014.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Photos/Photos.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BFC3C652961DE19B90D9F1D97070E67D0A5054A2</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:thesecretlab/Swift-iOS-Workshops-2014.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BFC3C652961DE19B90D9F1D97070E67D0A5054A2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BFC3C652961DE19B90D9F1D97070E67D0A5054A2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Swift-iOS-Workshops-2014</string>
+		</dict>
+	</array>
+</dict>
+</plist>
